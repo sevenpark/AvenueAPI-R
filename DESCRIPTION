@@ -1,0 +1,28 @@
+Package: AvenueAPI
+Type: Package
+Title: Retrieve Data from 7Park Data's Avenue API
+Version: 0.2
+Author: 7Park Data
+Maintainer: Derek Darves <derek@7parkdata.com>
+Description: Provides R-methods to retrieve and download metrics from the 7Park Data Avenue API.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Depends: R (>= 3.1.0)
+Imports:
+    httr,
+    rjson,
+    reshape2, 
+    dplyr, 
+    lubridate, 
+    xts, 
+    zoo,
+    methods
+URL: https://github.com/sevenpark/AvenueAPI-R
+RoxygenNote: 6.0.1
+Collate: 
+    'Avenue_Auth_Methods.R'
+    'data_resources.R'
+
+
+
